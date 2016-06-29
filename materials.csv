@@ -1,0 +1,51 @@
+id,namegbxml,namearch,iswindow,thickness,embodiedenergy,eeunit_id,matdensityarch,matdensitygbxml,densityunit_id,unitcostmat,unitcostmle,unitcostttl,financialunit_id,lifeexpectancy,maintenancefactor,infosource,confidence
+1,"Brick, Common: 8""","Brick 8""",0,1,1289.77,1,120,96.7665,2,4.56,11.31,15.2,3,100,1,,81
+2,"Gypsum Wall Board: 1/2""","Gypsum Wall Board",0,0.5,1292.48,1,46.5,63.0543,2,0.63,0,0,3,100,1,,6
+3,"1/8 in Pilkington single glazing",none,1,0.125,18.5,2,156.0699,156.0699,2,4.82,10.17,13.35,3,0,0,,72
+4,"Rigid insulation: 2""","Rigid Insulation",0,0,30171,1,2,1.43589,2,0.25,0.61,0.83,3,100,1,,37
+5,"Softwood, Lumber: 3 1/2""","Wood Framing 2x4"" @ 24"" oc",0,0,3663.5,1,31.8,0,2,540,1890,2700,1,60,1.6667,,70
+6,"Asphalt Shingle: 1/2""","Asphalt Shingle",0,0,9,2,74.916,0,2,81,136.5,183,4,0,0,,66
+7,"Brick, Common: 1' - 3 3/4""","Brick 8""",0,0,1289.77,1,120,96.763338,2,4.56,11.31,15.2,3,100,1,,95
+8,"Gypsum Wall Board: 5/8""","Gypsum Wall Board",0,0,1292.48,1,46.5,68.67076,2,0.63,0,0,3,100,1,,79
+9,"Structure, Wood Joist/Rafter Layer: 3 1/2""","Wood Framing 2x4"" @ 24"" oc",0,0,3663.5,1,31.8,30.9643,2,540,1890,2700,1,60,1.6667,,82
+10,"Structure, Wood Joist/Rafter Layer: 5 1/2""","Wood Framing 2x6"" @ 24"" oc",0,0,3663.5,1,31.8,30.9643,2,540,1890,2700,1,60,1.6667,,60
+11,"Structure, Wood Joist/Rafter Layer, Batt Insulation: 3 1/2""","Wood Framing 2x4"" @ 24"" oc",0,0,5138.7706,1,5.79,30.96427,2,540,1890,2700,1,60,1.6667,,64
+12,"Structure, Wood Joist/Rafter Layer: 11 1/2""","2x12"" Rafter @ 24"" oc",0,0,3663.5,1,31.8,0,2,660,1070,1350,1,60,1.6667,,10
+13,"Structure, Wood Joist/Rafter Layer: 3'","2x12"" Rafter @ 24"" oc",0,0,3663.5,1,31.8,0,2,660,1070,1350,1,60,1.6667,,10
+14,"Structure, Wood Joist/Rafter Layer: 5 1/2","2x12"" Rafter @ 24"" oc",0,0,3663.5,1,31.8,0,2,660,1070,1350,3,60,1.6667,,20
+15,"Oak Flooring: 1'","Sawn Hardwood",0,0,7.8,2,44.9481,0,2,0.52,0,0,3,0,0,,25
+16,"Oak Flooring: 1 1/2""","Sawn Hardwood",0,0,7.8,2,44.9481,0,2,0.52,0,0,3,0,0,,35
+17,"Plywood, Sheathing: 3/4""","Plywood Sheathing",0,0,6448.8,1,33.7,0,2,0.51,1.11,1.48,3,30,3.3333,,87
+18,"5/8 in plywood","Plywood Sheathing",0,0,6448.8,1,33.9608,0,2,0.51,1.11,1.48,3,0,0,,67
+19,"1 1/2 in wood",none,0,0,3181.26,1,31.8383,0,2,0,0,0,3,0,0,,61
+20,"Concrete, Lightweight: 1' - 8""","Lightweight Concrete",0,0,0.95,2,620,0,1,16,0,0,3,30,1.3333,,99
+21,"Concrete, Cast-in-Place gray: 2""","General Concrete",0,0,0.95,2,143.6,0,2,0,0,0,2,0,0,,59
+22,"Concrete, Lightweight: 4""","General Concrete",0,0,0.95,2,59.3085,0,2,99,99,109,2,0,0,,57
+23,"Concrete, Precast: 8""","General Concrete",0,0,0.95,2,143.6,0,2,99,99,109,2,0,0,,75
+24,"Limestone: 3 1/2""",Stone,0,0,0.64,2,2750,0,1,0,0,0,2,0,0,,74
+25,"Metal surface",none,0,0,25,1,7824,0,1,0,0,0,2,0,0,"",46
+26,"Air: 1""",Air,0,0,0,1,0,0,2,0,0,0,3,0,0,,21
+27,AirSpace,Air,0,0,0,1,0,0,2,0,0,0,3,0,0,,85
+28,"Rubber, Black: 1/16""",Rubber,0,0,110,2,58.058,58.058,2,0,0,0,2,0,0,,93
+29,"Opaque spandral glass","Opaque Spandrel Glass",1,0,18.5,2,2528,0,1,16.1,22.4,27.5,3,0,0,,28
+30,"Asphalt Shingle: 1'","Asphalt Shingle",0,0,9,2,69.9216,0,2,81,136.5,183,4,0,0,,92
+31,"Vapor Retarder","Vapor Barrier",0,0,38472.88,1,57.43,93.645,2,11.25,20.95,27.5,4,100,1,,98
+32,"Concrete Masonry Units: 11 5/8""","Concrete Masonry Unit",0,0,305.89,1,30.24,112.374,2,2.36,6.49,8.85,3,0,0,,24
+33,"Concrete, Cast-in-Place gray","Concrete, Cast-in-Place gray",0,12,0.95,2,143.6,143.6,2,0,0,0,1,0,1,,76
+34,"Brick, Common: 10 1/2""","Brick, Common: 10 1/2""",0,10.5,1289.77,1,120,120,2,0,0,0,4,100,1,,87
+35,"Softwood, Lumber: 3/8""","Softwood, Lumber: 3/8""",0,0.375,3663.5,1,31.8,31.8,2,0,0,0,4,100,1,,75
+36,"Concrete, Cast-in-Place, Gray: 6""","Concrete, Cast-in-Place, Gray: 6""",0,6,0.95,2,143.6,143.6,2,0,0,0,4,100,1,,60
+37,"Ceramic Tile: 5/16""",http://en.wikipedia.org/wiki/Embodied_energy,0,0.3125,12,2,2000,2000,1,0,0,0,4,100,1,,25
+38,"Plaster: 5/8""",http://en.wikipedia.org/wiki/Embodied_energy,0,0.625,1.8,2,1120,1120,1,0,0,0,4,100,1,,56
+39,"Plaster: 11/16""",http://en.wikipedia.org/wiki/Embodied_energy,0,0.6875,1.8,2,1120,1120,1,0,0,0,4,100,1,,8
+40,"Plaster: 3/4""",http://en.wikipedia.org/wiki/Embodied_energy,0,0.75,1.8,2,1120,1120,1,0,0,0,4,100,1,,44
+41,"Concrete, Cast-in-Place gray: 6""","General Concrete",0,0,0.95,2,143.5843,0,2,0,0,0,2,100,1,,5
+42,"Structure, Wood Joist/Rafter Layer, Batt Insulation: 5 1/2""","Wood Framing 2x6"" @ 24"" oc",0,0,5138.7706,1,5.79,32,2,0,0,0,2,60,1.6667,,17
+43,"Concrete, Cast-in-Place, Gray: 8""","General Concrete",0,0,0.95,2,143.5843,0,2,0,0,0,2,100,1,,98
+44,"Asphalt Shingle: 1/4""","Asphalt Shingle",0,0,9,2,74.916,0,2,81,136.5,183,4,0,0,,21
+45,"Plywood, Sheathing: 5/8""","Plywood Sheathing",0,0,6448.8,1,33.7,0,2,0.51,1.11,1.48,3,30,3.3333,,11
+46,"Structure, Wood Joist/Rafter Layer, Batt Insulation: 7 1/2""","Wood Framing 2x6"" @ 24"" oc8",0,0,5138.7706,1,5.79,32,2,0,0,0,2,60,1.6667,,72
+47,"Siding, Clapboard: 1/2""","Clapboard Siding",0,0,3663.5,1,31.8,0,2,0,0,0,3,60,1.6667,,33
+48,"Oak Flooring: 3/4""","Sawn Hardwood",0,0,7.8,2,44.9481,0,2,0.52,0,0,3,0,0,,61
+49,"Structure, Wood Joist/Rafter Layer: 9 1/4""","2x10"" Rafter @ 24"" oc",0,0,3663.5,1,31.8,0,2,660,1070,1350,1,60,1.6667,,62
+50,"Concrete, Cast-in-Place gray: 1'","General Concrete",0,0,0.95,2,143.6,0,2,0,0,0,2,0,0,"",96
