@@ -50,6 +50,12 @@ def main():
 
     with open(csvfile, 'rb') as f:
         reader = csv.reader(f)
+        # id[0],namegbxml[1],namearch[2],iswindow[3],
+        # thickness[4],embodiedenergy[5],eeunit_id[6],
+        # matdensityarch[7],matdensitygbxml[8],densityunit_id[9],
+        # unitcostmat[10],unitcostmle[11],unitcostttl[12],
+        # financialunit_id[13],lifeexpectancy[14],maintenancefactor[15],
+        # infosource[16],confidence[17]
         for row in reader:
           # generate new uuid for component
             componentid = 'urn:green-matdb:' + str(uuid.uuid4())
@@ -76,15 +82,28 @@ def main():
                 # This QUDT unit doesn't exist. Unit is JoulePerKilogram.
                 # Need to create new derived unit.
                 ds.add((embodiedenergy, QUDT.unit, UNIT.MegaJoulePerKilogram))
-            materialdensity = BNode()
-            ds.add((URIRef(componentid), COMPONENT.hasMaterialDensity, materialdensity))
-            ds.add((materialdensity, RDF.type, QUDT.QuantityValue))
-            ds.add((materialdensity, QUDT.numericValue, Literal(row[7],datatype=XSD.float)))
-            if (row[8] == '1'):
-                ds.add((materialdensity, QUDT.unit, UNIT.KilogramPerCubicMeter))
-            elif (row[8] == '2'):
-                ds.add((materialdensity, QUDT.unit, UNIT.PoundPerCubicFoot))
-
+            materialdensityArch = BNode()
+            ds.add((URIRef(componentid), COMPONENT.hasMaterialDensity, materialdensityArch))
+            ds.add((materialdensityArch, COMPONENT.hasSource, COMPONENT.Archsource))
+            ds.add((materialdensityArch, RDF.type, QUDT.QuantityValue))
+            ds.add((materialdensityArch, QUDT.numericValue, Literal(row[7],datatype=XSD.float)))
+            if (row[9] == '1'):
+                ds.add((materialdensityArch, QUDT.unit, UNIT.KilogramPerCubicMeter))
+            elif (row[9] == '2'):
+                ds.add((materialdensityArch, QUDT.unit, UNIT.PoundPerCubicFoot))
+            materialdensitygbxml = BNode()
+            ds.add((URIRef(componentid), COMPONENT.hasMaterialDensity, materialdensitygbxml))
+            ds.add((materialdensityArch, COMPONENT.hasSource, COMPONENT.gbxmlsource))
+            ds.add((materialdensitygbxml, RDF.type, QUDT.QuantityValue))
+            ds.add((materialdensitygbxml, QUDT.numericValue, Literal(row[8],datatype=XSD.float)))
+            if (row[9] == '1'):
+                ds.add((materialdensitygbxml, QUDT.unit, UNIT.KilogramPerCubicMeter))
+            elif (row[9] == '2'):
+                ds.add((materialdensitygbxml, QUDT.unit, UNIT.PoundPerCubicFoot))
+            unitcostmat = BNode()
+            ds.add((URIRef(componentid), COMPONENT.hasUnitCost, unitcostmat))
+            ds.add((unitcostmat, RDF.type, QUDT.QuantityValue))
+            ds.add((unitcostmat, QUDT.numericValue, Literal(row[10],datatype=XSD.float)))
 
     print(ds.serialize(format="turtle"))
 
