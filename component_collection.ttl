@@ -1,12 +1,16 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix pav:  <http://purl.org/pav/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
 
-<> a sioc:Blog, sioc:Collection ;
-    dct:title "Apache Marmotta - Blog" ;
-    dct:abstract """Apache Marmotta is an Open Platform for Linked Data.
-The goal of Apache Marmotta is to provide an open implementation
+
+<> a dctypes:Dataset ;
+    dct:title "Green-Scale Prototype Building Component-Material Dataset" ;
+    dct:abstract """Prototype Building Component and Material Dataset published as linked open data.
+This dataset is published on Apache Marmotta which is to provide an open imple
 of a Linked Data Platform that can be used, extended and deployed
 easily by organizations who want to publish Linked Data or build
 custom applications on Linked Data."""@en .
