@@ -6,47 +6,167 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<urn:green-matdb:039f0944-696b-42c9-83ba-d56271cb579f> a component:Component ;
-    component:archname "Gypsum Wall Board" ;
-    component:gbxmlname "Gypsum Wall Board: 5/8\"" ;
+<urn:green-matdb:04d6f11e-18ee-49d3-a6f7-e9a535fc15e8> a component:Component ;
+    component:archname "General Concrete" ;
+    component:gbxmlname "Concrete, Cast-in-Place gray: 1'" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "1292.48"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+            qudt:numericValue "0.95"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "68.67076"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
-            qudt:numericValue "46.5"^^xsd:float ;
+            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.63"^^xsd:float ] .
+            qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:0bf22251-cf2a-4ff9-af5e-e1b11cf6b715> a component:Component ;
-    component:archname "http://en.wikipedia.org/wiki/Embodied_energy" ;
-    component:gbxmlname "Plaster: 5/8\"" ;
+<urn:green-matdb:0d37f43a-433c-4efe-bc8d-d3441dc31872> a component:Component ;
+    component:archname "2x12\" Rafter @ 24\" oc" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 11 1/2\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "1.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+            qudt:numericValue "3663.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "1120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
-        [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
-            qudt:numericValue "1120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
+            qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.625"^^xsd:float ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "660.0"^^xsd:float ] .
+
+<urn:green-matdb:10a8157c-0b17-4d64-bd93-f8b23333f302> a component:Component ;
+    component:archname "General Concrete" ;
+    component:gbxmlname "Concrete, Cast-in-Place gray: 2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.95"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:0c2d88d2-4b42-40e9-8dd8-639d10d67157> a component:Component ;
+<urn:green-matdb:1290139b-d295-49cf-8b54-0c3c4d623dbf> a component:Component ;
+    component:archname "Plywood Sheathing" ;
+    component:gbxmlname "5/8 in plywood" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "6448.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "33.9608"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.51"^^xsd:float ] .
+
+<urn:green-matdb:144cd8f1-f91a-44b7-bf9a-258a615048a3> a component:Component ;
+    component:archname "Brick 8\"" ;
+    component:gbxmlname "Brick, Common: 1' - 3 3/4\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "1289.77"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "96.763338"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "4.56"^^xsd:float ] .
+
+<urn:green-matdb:33d18936-8a66-446a-8e7e-d632c98f8ae2> a component:Component ;
+    component:archname "Stone" ;
+    component:gbxmlname "Limestone: 3 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.64"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "2750.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:389fe7cb-2c7e-4e33-89ad-5ab06f99c3bb> a component:Component ;
+    component:archname "General Concrete" ;
+    component:gbxmlname "Concrete, Cast-in-Place, Gray: 8\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.95"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "143.5843"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:41c3e9c5-023b-4a2f-b418-2ab1e81b35d6> a component:Component ;
+    component:archname "Asphalt Shingle" ;
+    component:gbxmlname "Asphalt Shingle: 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "9.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "74.916"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "81.0"^^xsd:float ] .
+
+<urn:green-matdb:4675ad27-466f-43a5-8526-cd9851f51c50> a component:Component ;
     component:archname "Sawn Hardwood" ;
     component:gbxmlname "Oak Flooring: 1 1/2\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
@@ -66,19 +186,39 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.52"^^xsd:float ] .
 
-<urn:green-matdb:13ef9511-13e7-4e15-9d3b-bcc48b0994b8> a component:Component ;
+<urn:green-matdb:479031af-6bb2-42b7-bac1-18312639e51f> a component:Component ;
     component:archname "General Concrete" ;
-    component:gbxmlname "Concrete, Cast-in-Place gray: 1'" ;
+    component:gbxmlname "Concrete, Precast: 8\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
             qudt:numericValue "0.95"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
             qudt:numericValue "143.6"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "99.0"^^xsd:float ] .
+
+<urn:green-matdb:48efc4d9-0977-4d8e-bab8-3d63681cbe29> a component:Component ;
+    component:archname "Air" ;
+    component:gbxmlname "Air: 1\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
@@ -86,9 +226,189 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:152dff98-e6d3-496e-b2eb-0e5639f90658> a component:Component ;
-    component:archname "Clapboard Siding" ;
-    component:gbxmlname "Siding, Clapboard: 1/2\"" ;
+<urn:green-matdb:4b9cfdda-d9e6-4c6b-ab5d-15e62bd93137> a component:Component ;
+    component:archname "Brick 8\"" ;
+    component:gbxmlname "Brick, Common: 8\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "1289.77"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "96.7665"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "1.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "4.56"^^xsd:float ] .
+
+<urn:green-matdb:4c9d8a60-c1d2-4d5d-9e38-6a19146d76e2> a component:Component ;
+    component:archname "Wood Framing 2x6\" @ 24\" oc8" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer, Batt Insulation: 7 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "5138.7706"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "32.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "5.79"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:4de95256-d94b-4aa2-9e3f-ac11782e3b0f> a component:Component ;
+    component:archname "Plywood Sheathing" ;
+    component:gbxmlname "Plywood, Sheathing: 3/4\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "6448.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "33.7"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.51"^^xsd:float ] .
+
+<urn:green-matdb:5544822f-8b93-4429-bd28-4f0d72bf08ca> a component:Component ;
+    component:archname "Wood Framing 2x4\" @ 24\" oc" ;
+    component:gbxmlname "Softwood, Lumber: 3 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "3663.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "540.0"^^xsd:float ] .
+
+<urn:green-matdb:599ef6dd-f69a-4801-8a06-c60ee64df6eb> a component:Component ;
+    component:archname "Rigid Insulation" ;
+    component:gbxmlname "Rigid insulation: 2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "30171.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "1.43589"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "2.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.25"^^xsd:float ] .
+
+<urn:green-matdb:5d82c11c-07cc-4cdf-8044-f645cf0f5e59> a component:Component ;
+    component:archname "Gypsum Wall Board" ;
+    component:gbxmlname "Gypsum Wall Board: 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "1292.48"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "46.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "63.0543"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.63"^^xsd:float ] .
+
+<urn:green-matdb:5f1023ba-f887-48c1-80be-95288210c1c2> a component:Component ;
+    component:archname "http://en.wikipedia.org/wiki/Embodied_energy" ;
+    component:gbxmlname "Plaster: 5/8\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "1.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "1120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "1120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.625"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:63dcf1b4-303e-400c-8fd1-d78ae999b7cb> a component:Component ;
+    component:archname "http://en.wikipedia.org/wiki/Embodied_energy" ;
+    component:gbxmlname "Ceramic Tile: 5/16\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "12.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "2000.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "2000.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.3125"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:63e9dc1f-1f23-4a7c-adc1-fbe8a2e76e63> a component:Component ;
+    component:archname "none" ;
+    component:gbxmlname "1 1/2 in wood" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "3181.26"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "31.8383"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:641f98c9-9068-46a5-a4e0-2696f9a2e765> a component:Component ;
+    component:archname "2x10\" Rafter @ 24\" oc" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 9 1/4\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
             qudt:numericValue "3663.5"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
@@ -104,9 +424,49 @@
             qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "660.0"^^xsd:float ] .
+
+<urn:green-matdb:6a610e00-db99-4778-9fef-a78e30978df9> a component:Component ;
+    component:archname "http://en.wikipedia.org/wiki/Embodied_energy" ;
+    component:gbxmlname "Plaster: 3/4\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "1.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "1120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "1120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.75"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:15f05932-3156-4c0c-bb65-59695c3baa85> a component:Component,
+<urn:green-matdb:6eea2b4e-6885-4059-95c7-812bcd91f5fe> a component:Component ;
+    component:archname "Concrete, Cast-in-Place gray" ;
+    component:gbxmlname "Concrete, Cast-in-Place gray" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.95"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "12.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:758b0888-788d-4354-afc0-242f595fa06b> a component:Component,
         component:Window ;
     component:archname "Opaque Spandrel Glass" ;
     component:gbxmlname "Opaque spandral glass" ;
@@ -127,108 +487,27 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "16.1"^^xsd:float ] .
 
-<urn:green-matdb:1bc84915-525d-49ee-a478-f46ff0d7c249> a component:Component ;
-    component:archname "Wood Framing 2x4\" @ 24\" oc" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer, Batt Insulation: 3 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "5138.7706"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "5.79"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "30.96427"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "540.0"^^xsd:float ] .
-
-<urn:green-matdb:1cfbdadd-8a72-4fd2-8874-d17fc4ce046c> a component:Component ;
-    component:archname "Wood Framing 2x4\" @ 24\" oc" ;
-    component:gbxmlname "Softwood, Lumber: 3 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "3663.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "31.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "540.0"^^xsd:float ] .
-
-<urn:green-matdb:22c796a8-9f53-463f-a0b1-361d1db9b7b9> a component:Component,
-        component:Window ;
+<urn:green-matdb:7e22288e-202d-41e1-9f0e-4b3111ae63c0> a component:Component ;
     component:archname "none" ;
-    component:gbxmlname "1/8 in Pilkington single glazing" ;
+    component:gbxmlname "Metal surface" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "18.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+            qudt:numericValue "25.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
-            qudt:numericValue "156.0699"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+            qudt:numericValue "7824.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
         [ a qudt:QuantityValue ;
-            qudt:numericValue "156.0699"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.125"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "4.82"^^xsd:float ] .
-
-<urn:green-matdb:23485b89-3a32-4383-ba08-cca87fdc339b> a component:Component ;
-    component:archname "Asphalt Shingle" ;
-    component:gbxmlname "Asphalt Shingle: 1'" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "9.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "69.9216"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "81.0"^^xsd:float ] .
+            qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:258a719a-b471-4238-96fb-9933fdbfef87> a component:Component ;
-    component:archname "Sawn Hardwood" ;
-    component:gbxmlname "Oak Flooring: 1'" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "7.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "44.9481"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.52"^^xsd:float ] .
-
-<urn:green-matdb:2a6518f1-7415-49ce-b71b-e716aa4767b0> a component:Component ;
+<urn:green-matdb:7e29f79c-79c5-42c8-b1c2-e00a4cf441a6> a component:Component ;
     component:archname "2x12\" Rafter @ 24\" oc" ;
     component:gbxmlname "Structure, Wood Joist/Rafter Layer: 5 1/2" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
@@ -248,596 +527,19 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "660.0"^^xsd:float ] .
 
-<urn:green-matdb:2fa374f9-bc70-4922-acdf-de449085720c> a component:Component ;
-    component:archname "Vapor Barrier" ;
-    component:gbxmlname "Vapor Retarder" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "38472.88"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "57.43"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "93.645"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "11.25"^^xsd:float ] .
-
-<urn:green-matdb:30d548c0-56a7-4cce-88f5-6db889bab9c1> a component:Component ;
-    component:archname "Plywood Sheathing" ;
-    component:gbxmlname "5/8 in plywood" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "6448.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "33.9608"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.51"^^xsd:float ] .
-
-<urn:green-matdb:34d27bc8-bebf-43d5-b0bc-6279189639d9> a component:Component ;
-    component:archname "2x12\" Rafter @ 24\" oc" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 3'" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "3663.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "31.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "660.0"^^xsd:float ] .
-
-<urn:green-matdb:3da68861-a74b-4c3d-b4a2-71668ebe8db2> a component:Component ;
-    component:archname "Plywood Sheathing" ;
-    component:gbxmlname "Plywood, Sheathing: 5/8\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "6448.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "33.7"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.51"^^xsd:float ] .
-
-<urn:green-matdb:3f2692c3-03dd-424b-8368-7b331b1bead5> a component:Component ;
-    component:archname "Asphalt Shingle" ;
-    component:gbxmlname "Asphalt Shingle: 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "9.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "74.916"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "81.0"^^xsd:float ] .
-
-<urn:green-matdb:41fc7428-7486-4576-a8e9-654c26d5024a> a component:Component ;
-    component:archname "Concrete, Cast-in-Place gray" ;
-    component:gbxmlname "Concrete, Cast-in-Place gray" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.95"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "143.6"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "143.6"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "12.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:43c08949-d8aa-40bb-b02a-117e30d32455> a component:Component ;
-    component:archname "Stone" ;
-    component:gbxmlname "Limestone: 3 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.64"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "2750.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:4675996e-7c4f-4b57-b152-aacb94214dc6> a component:Component ;
-    component:archname "Lightweight Concrete" ;
-    component:gbxmlname "Concrete, Lightweight: 1' - 8\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.95"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "620.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "16.0"^^xsd:float ] .
-
-<urn:green-matdb:4f7a27ad-3bce-4c58-b8fc-4ed1f0c05a8b> a component:Component ;
-    component:archname "Wood Framing 2x6\" @ 24\" oc" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 5 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "3663.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "30.9643"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "31.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "540.0"^^xsd:float ] .
-
-<urn:green-matdb:52b609d1-f4c3-4bf8-9c54-accaa67b2198> a component:Component ;
-    component:archname "Rigid Insulation" ;
-    component:gbxmlname "Rigid insulation: 2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "30171.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "1.43589"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "2.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.25"^^xsd:float ] .
-
-<urn:green-matdb:5894ff21-05ed-450f-a1a0-1918e90ffe56> a component:Component ;
-    component:archname "http://en.wikipedia.org/wiki/Embodied_energy" ;
-    component:gbxmlname "Ceramic Tile: 5/16\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "12.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "2000.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "2000.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.3125"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:59871815-c028-47ee-a4f9-24d69b49e02e> a component:Component ;
-    component:archname "Asphalt Shingle" ;
-    component:gbxmlname "Asphalt Shingle: 1/4\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "9.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "74.916"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "81.0"^^xsd:float ] .
-
-<urn:green-matdb:621ac6ca-8e04-41cf-9633-957505f91b21> a component:Component ;
-    component:archname "Plywood Sheathing" ;
-    component:gbxmlname "Plywood, Sheathing: 3/4\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "6448.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "33.7"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.51"^^xsd:float ] .
-
-<urn:green-matdb:67de9670-fdf2-46cc-a0ce-572798c5f28b> a component:Component ;
-    component:archname "Brick 8\"" ;
-    component:gbxmlname "Brick, Common: 8\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "1289.77"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "96.7665"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "1.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "4.56"^^xsd:float ] .
-
-<urn:green-matdb:715eef9a-ea54-48da-8942-dca3ae5c7c46> a component:Component ;
-    component:archname "namearch" ;
-    component:gbxmlname "namegbxml" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "embodiedenergy"^^xsd:float ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "matdensitygbxml"^^xsd:float ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "matdensityarch"^^xsd:float ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "thickness"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "unitcostmat"^^xsd:float ] .
-
-<urn:green-matdb:823a2870-eb89-4602-b2f0-1f3bfc053718> a component:Component ;
-    component:archname "http://en.wikipedia.org/wiki/Embodied_energy" ;
-    component:gbxmlname "Plaster: 3/4\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "1.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "1120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "1120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.75"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:873c9b96-70c3-4bd2-835b-b0737de3cbeb> a component:Component ;
-    component:archname "Brick, Common: 10 1/2\"" ;
-    component:gbxmlname "Brick, Common: 10 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "1289.77"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "10.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:93b9ea55-db77-465e-883b-12ea132315a1> a component:Component ;
-    component:archname "Brick 8\"" ;
-    component:gbxmlname "Brick, Common: 1' - 3 3/4\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "1289.77"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "96.763338"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "120.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "4.56"^^xsd:float ] .
-
-<urn:green-matdb:ad4afc43-ccc4-41d5-842c-afa64e70e166> a component:Component ;
-    component:archname "Wood Framing 2x6\" @ 24\" oc" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer, Batt Insulation: 5 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "5138.7706"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "5.79"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "32.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:ad6708c3-96fb-480a-b8a2-f1f2b2f5d367> a component:Component ;
-    component:archname "Concrete Masonry Unit" ;
-    component:gbxmlname "Concrete Masonry Units: 11 5/8\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "305.89"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "112.374"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "30.24"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "2.36"^^xsd:float ] .
-
-<urn:green-matdb:b0e8128e-c4ac-4599-a2e0-2af393b729a6> a component:Component ;
-    component:archname "Wood Framing 2x6\" @ 24\" oc8" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer, Batt Insulation: 7 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "5138.7706"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "32.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "5.79"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:beead606-e954-41d6-a699-ac4c99cc4128> a component:Component ;
-    component:archname "2x12\" Rafter @ 24\" oc" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 11 1/2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "3663.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "31.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "660.0"^^xsd:float ] .
-
-<urn:green-matdb:c595175b-55f3-4ebf-b1b5-fc41091ecc6e> a component:Component ;
-    component:archname "Softwood, Lumber: 3/8\"" ;
-    component:gbxmlname "Softwood, Lumber: 3/8\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "3663.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "31.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "31.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.375"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:c775c44a-e2c6-4c74-be80-ec321e4c56b0> a component:Component ;
-    component:archname "2x10\" Rafter @ 24\" oc" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 9 1/4\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "3663.5"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "31.8"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "660.0"^^xsd:float ] .
-
-<urn:green-matdb:c860df64-a4ce-4806-a9c2-46e5b14a37d2> a component:Component ;
-    component:archname "General Concrete" ;
-    component:gbxmlname "Concrete, Lightweight: 4\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.95"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "59.3085"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "99.0"^^xsd:float ] .
-
-<urn:green-matdb:cc51a43e-67a9-461c-8c6a-7bf035d953ae> a component:Component ;
-    component:archname "Air" ;
-    component:gbxmlname "AirSpace" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:d11c6112-b114-4b3b-9414-74bf270bad50> a component:Component ;
-    component:archname "General Concrete" ;
-    component:gbxmlname "Concrete, Cast-in-Place gray: 6\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.95"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "143.5843"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:d22d9611-23f7-4198-b98d-2aa14db2a186> a component:Component ;
-    component:archname "Air" ;
-    component:gbxmlname "Air: 1\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:dc063f27-eaea-42b0-b61d-1daf1a49eae5> a component:Component ;
-    component:archname "General Concrete" ;
-    component:gbxmlname "Concrete, Cast-in-Place gray: 2\"" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.95"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "143.6"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:df28203b-bf01-49e2-8c51-3efda2a9987a> a component:Component ;
+<urn:green-matdb:82bdaabf-3239-486c-bb58-c4b453590157> a component:Component ;
     component:archname "Sawn Hardwood" ;
-    component:gbxmlname "Oak Flooring: 3/4\"" ;
+    component:gbxmlname "Oak Flooring: 1'" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
             qudt:numericValue "7.8"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
             qudt:numericValue "44.9481"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
@@ -845,7 +547,7 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.52"^^xsd:float ] .
 
-<urn:green-matdb:df764f40-e883-4db7-80d4-98a1b8174f8d> a component:Component ;
+<urn:green-matdb:86814719-7355-4b49-a2ed-31660f4753c1> a component:Component ;
     component:archname "http://en.wikipedia.org/wiki/Embodied_energy" ;
     component:gbxmlname "Plaster: 11/16\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
@@ -865,29 +567,69 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:e3049bcf-02c9-46d8-9cb9-e607700c7efd> a component:Component ;
-    component:archname "Gypsum Wall Board" ;
-    component:gbxmlname "Gypsum Wall Board: 1/2\"" ;
+<urn:green-matdb:88442c01-cbe5-4a2e-ad61-bf60471f06c7> a component:Component ;
+    component:archname "Concrete Masonry Unit" ;
+    component:gbxmlname "Concrete Masonry Units: 11 5/8\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "1292.48"^^xsd:float ;
+            qudt:numericValue "305.89"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "63.0543"^^xsd:float ;
+            qudt:numericValue "112.374"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
         [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
-            qudt:numericValue "46.5"^^xsd:float ;
+            qudt:numericValue "30.24"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.5"^^xsd:float ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.63"^^xsd:float ] .
+            qudt:numericValue "2.36"^^xsd:float ] .
 
-<urn:green-matdb:ec12a333-0909-49ff-92d2-71fe88441889> a component:Component ;
+<urn:green-matdb:8c183b4e-e0e6-4c0f-abc6-86f32545c5eb> a component:Component ;
+    component:archname "Clapboard Siding" ;
+    component:gbxmlname "Siding, Clapboard: 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "3663.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:8f63de30-bba4-475a-8b13-c9a8a4ec1dae> a component:Component ;
+    component:archname "Wood Framing 2x4\" @ 24\" oc" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 3 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "3663.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "30.9643"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "540.0"^^xsd:float ] .
+
+<urn:green-matdb:96e948c8-4db1-4178-946a-522cc29a608f> a component:Component ;
     component:archname "General Concrete" ;
-    component:gbxmlname "Concrete, Cast-in-Place, Gray: 8\"" ;
+    component:gbxmlname "Concrete, Cast-in-Place gray: 6\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
             qudt:numericValue "0.95"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
@@ -905,16 +647,56 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:ee1e9988-1f41-46df-8c6b-fbe0ab7cc5e0> a component:Component ;
-    component:archname "General Concrete" ;
-    component:gbxmlname "Concrete, Precast: 8\"" ;
+<urn:green-matdb:a102e9c1-82e4-4e77-8196-2507fa201d75> a component:Component ;
+    component:archname "Softwood, Lumber: 3/8\"" ;
+    component:gbxmlname "Softwood, Lumber: 3/8\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.95"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+            qudt:numericValue "3663.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
-            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.375"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:a178a06d-a903-4887-9ace-ec12515ad1c8> a component:Component ;
+    component:archname "Brick, Common: 10 1/2\"" ;
+    component:gbxmlname "Brick, Common: 10 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "1289.77"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "120.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "10.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:b142f489-e537-43fc-9c6e-816716582933> a component:Component ;
+    component:archname "Plywood Sheathing" ;
+    component:gbxmlname "Plywood, Sheathing: 5/8\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "6448.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "33.7"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
         [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
@@ -923,41 +705,21 @@
             qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "99.0"^^xsd:float ] .
+            qudt:numericValue "0.51"^^xsd:float ] .
 
-<urn:green-matdb:ee99f3c8-1591-4aea-9833-f3a5fb0901ec> a component:Component ;
-    component:archname "none" ;
-    component:gbxmlname "Metal surface" ;
-    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "25.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
-    component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
-        [ a qudt:QuantityValue ;
-            component:hasSource component:Archsource,
-                component:gbxmlsource ;
-            qudt:numericValue "7824.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
-    component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
-    component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
-
-<urn:green-matdb:eee79375-ce2f-4f8b-8f53-987e85e9eeb9> a component:Component ;
-    component:archname "Wood Framing 2x4\" @ 24\" oc" ;
-    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 3 1/2\"" ;
+<urn:green-matdb:b608efa1-866d-4d41-902d-3621b6d67445> a component:Component ;
+    component:archname "Wood Framing 2x6\" @ 24\" oc" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 5 1/2\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
             qudt:numericValue "3663.5"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
-            qudt:numericValue "30.9643"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
-        [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
             qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "30.9643"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
@@ -965,27 +727,108 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "540.0"^^xsd:float ] .
 
-<urn:green-matdb:f032ec2a-7608-40de-ad76-996d46f96c90> a component:Component ;
-    component:archname "Concrete, Cast-in-Place, Gray: 6\"" ;
-    component:gbxmlname "Concrete, Cast-in-Place, Gray: 6\"" ;
+<urn:green-matdb:c227a009-27a1-4c83-ad70-9a02bfb2a88f> a component:Component ;
+    component:archname "Gypsum Wall Board" ;
+    component:gbxmlname "Gypsum Wall Board: 5/8\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "0.95"^^xsd:float ;
-            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+            qudt:numericValue "1292.48"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
-            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:numericValue "46.5"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
         [ a qudt:QuantityValue ;
-            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:numericValue "68.67076"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
-            qudt:numericValue "6.0"^^xsd:float ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
-            qudt:numericValue "0.0"^^xsd:float ] .
+            qudt:numericValue "0.63"^^xsd:float ] .
 
-<urn:green-matdb:f2b40a55-cd7f-481e-b1fc-88653b99adc3> a component:Component ;
+<urn:green-matdb:c4f75484-184e-4d9e-844f-44e4aacea25a> a component:Component ;
+    component:archname "Vapor Barrier" ;
+    component:gbxmlname "Vapor Retarder" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "38472.88"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "93.645"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "57.43"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "11.25"^^xsd:float ] .
+
+<urn:green-matdb:c53c1722-dc72-48f8-9d24-3c2b7ac98632> a component:Component,
+        component:Window ;
+    component:archname "none" ;
+    component:gbxmlname "1/8 in Pilkington single glazing" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "18.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "156.0699"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "156.0699"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.125"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "4.82"^^xsd:float ] .
+
+<urn:green-matdb:c7df6fb0-3c2d-40ed-b6b0-2b5a0d3c2e5a> a component:Component ;
+    component:archname "Sawn Hardwood" ;
+    component:gbxmlname "Oak Flooring: 3/4\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "7.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "44.9481"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.52"^^xsd:float ] .
+
+<urn:green-matdb:cec27127-df44-4bf9-8912-423d044eee5b> a component:Component ;
+    component:archname "Asphalt Shingle" ;
+    component:gbxmlname "Asphalt Shingle: 1'" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "9.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "69.9216"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "81.0"^^xsd:float ] .
+
+<urn:green-matdb:d3ea710b-822b-4f96-8cd4-c8bb953a7fe9> a component:Component ;
     component:archname "Rubber" ;
     component:gbxmlname "Rubber, Black: 1/16\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
@@ -1005,11 +848,91 @@
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ] .
 
-<urn:green-matdb:fd32e7e2-db09-4f09-b70f-664ba975d5d6> a component:Component ;
-    component:archname "none" ;
-    component:gbxmlname "1 1/2 in wood" ;
+<urn:green-matdb:d6f6c233-e67e-40ce-8c46-e300a7c69a25> a component:Component ;
+    component:archname "Wood Framing 2x6\" @ 24\" oc" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer, Batt Insulation: 5 1/2\"" ;
     component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
-            qudt:numericValue "3181.26"^^xsd:float ;
+            qudt:numericValue "5138.7706"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "32.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "5.79"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:de0d7648-3f9c-476e-9418-ee6b7a185d3a> a component:Component ;
+    component:archname "Lightweight Concrete" ;
+    component:gbxmlname "Concrete, Lightweight: 1' - 8\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.95"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "620.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#KilogramPerCubicMeter> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "16.0"^^xsd:float ] .
+
+<urn:green-matdb:e1361026-f064-4eca-a21a-32c734cac070> a component:Component ;
+    component:archname "General Concrete" ;
+    component:gbxmlname "Concrete, Lightweight: 4\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.95"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "59.3085"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "99.0"^^xsd:float ] .
+
+<urn:green-matdb:ee53bbf7-e6be-4427-9e48-e3e4086bbbf5> a component:Component ;
+    component:archname "Asphalt Shingle" ;
+    component:gbxmlname "Asphalt Shingle: 1/4\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "9.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "74.916"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "81.0"^^xsd:float ] .
+
+<urn:green-matdb:eec13ff5-3c64-4a1d-a705-ba1c98b6eb79> a component:Component ;
+    component:archname "Air" ;
+    component:gbxmlname "AirSpace" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
     component:hasMaterialDensity [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
@@ -1017,12 +940,72 @@
         [ a qudt:QuantityValue ;
             component:hasSource component:Archsource,
                 component:gbxmlsource ;
-            qudt:numericValue "31.8383"^^xsd:float ;
+            qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
     component:hasThickness [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ;
             qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
     component:hasUnitCost [ a qudt:QuantityValue ;
             qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:f25ed6c3-89d7-4c01-b88b-b114c2f7dcbc> a component:Component ;
+    component:archname "Concrete, Cast-in-Place, Gray: 6\"" ;
+    component:gbxmlname "Concrete, Cast-in-Place, Gray: 6\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "0.95"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#MegaJoulePerKilogram> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "143.6"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "6.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ] .
+
+<urn:green-matdb:f41dac53-f2bb-4d29-b951-faff35b5c9ca> a component:Component ;
+    component:archname "Wood Framing 2x4\" @ 24\" oc" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer, Batt Insulation: 3 1/2\"" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "5138.7706"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            qudt:numericValue "30.96427"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "5.79"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "540.0"^^xsd:float ] .
+
+<urn:green-matdb:fa10d00f-e1b8-4fa1-b952-678c846b4271> a component:Component ;
+    component:archname "2x12\" Rafter @ 24\" oc" ;
+    component:gbxmlname "Structure, Wood Joist/Rafter Layer: 3'" ;
+    component:hasEmbodiedEnergy [ a qudt:QuantityValue ;
+            qudt:numericValue "3663.5"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#BtuPerPound> ] ;
+    component:hasMaterialDensity [ a qudt:QuantityValue ;
+            component:hasSource component:Archsource,
+                component:gbxmlsource ;
+            qudt:numericValue "31.8"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ],
+        [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#PoundPerCubicFoot> ] ;
+    component:hasThickness [ a qudt:QuantityValue ;
+            qudt:numericValue "0.0"^^xsd:float ;
+            qudt:unit <http://qudt.org/1.1/vocab/unit#Inch> ] ;
+    component:hasUnitCost [ a qudt:QuantityValue ;
+            qudt:numericValue "660.0"^^xsd:float ] .
 
 
