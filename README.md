@@ -11,7 +11,7 @@ docker pull apache/marmotta
 
 To start the Marmotta image:
 ```bash
-docker run -p 8080:8080 marmotta
+docker run -p 8080:8080 apache/marmotta
 ```
 
 ##Linked Data Platform

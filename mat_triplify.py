@@ -44,6 +44,11 @@ __license__ = "MIT"
 # 3 $/SF
 # 4 $/SQ .
 
+# From http://vocabulary.odm2.org/units/
+# Dollar currancy unit http://qudt.org/vocab/unit#USDollar
+# http://qudt.org/vocab/unit#SquareFoot
+# http://qudt.org/vocab/unit#CubicYard
+# http://qudt.org/vocab/unit#BoardFoot
 
 def main():
     """Main entry point for the dfs CLI."""
@@ -121,12 +126,42 @@ def main():
                         UNIT.KilogramPerCubicMeter))
             elif (row[9] == '2'):
                 ds.add((materialdensitygbxml, QUDT.unit, UNIT.PoundPerCubicFoot))
+
+
+            # All unit costs are in the same units. We grab the unit cost
+            # first.
+            costunits = row[13]
+            # First unit is Thousand Board Feet (MBF)
+            # Is a unit of volume
+            if costunits == 1:
+                units=1
+            # Second Unit is cubic yards (volume).
+            elif costunits == 2:
+                units=2
+            # Third unit is Square Feet (area)
+            elif costunits == 3:
+                units=3
+            # Fourth Unit is sq
+            elif costunits == 4:
+                units = 4
+            else:
+                units = 5
             unitcostmat = BNode()
             ds.add((URIRef(componentid), COMPONENT.hasUnitCost, unitcostmat))
             ds.add((unitcostmat, RDF.type, QUDT.QuantityValue))
             ds.add((unitcostmat, QUDT.numericValue, Literal(row[10],
                                                             datatype=XSD.float)))
             unitcostMLE = BNode()
+            ds.add((URIRef(componentid), COMPONENT.hasUnitCost, unitcostmat))
+            ds.add((unitcostmat, RDF.type, QUDT.QuantityValue))
+            ds.add((unitcostmat, QUDT.numericValue, Literal(row[11],
+                                                            datatype=XSD.float)))
+            unitcostTTL = BNode()
+            ds.add((URIRef(componentid), COMPONENT.hasUnitCost, unitcostmat))
+            ds.add((unitcostmat, RDF.type, QUDT.QuantityValue))
+            ds.add((unitcostmat, QUDT.numericValue, Literal(row[12],
+                                                            datatype=XSD.float)))
+
 
     print(ds.serialize(format="turtle"))
 
